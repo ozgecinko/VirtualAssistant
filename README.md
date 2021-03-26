@@ -5,7 +5,7 @@
 
 I always imagined a virtual assistant just like my virtual version. 
 I wanted to make this dream come true after exploring Python libraries.
-I called my virtual assistant as Zinku, which means Zinc in German, because my surname means Zinc in Turkish. :heart_eyes:
+I called my virtual assistant as Zinku, I've inspired by my surname because my surname means Zinc in Turkish. :heart_eyes:
 
 Zinku can understand your voice and commands, talk with you, search something on wikipedia, tell your currently played songs on spotify, open a video on youtube, make jokes to make you happy, tell you today's date. :sparkles:
 
