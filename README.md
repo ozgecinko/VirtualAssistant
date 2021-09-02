@@ -7,6 +7,12 @@ I called my virtual assistant as Zinku.
 
 Zinku can understand your voice and commands, talk with you, search something on wikipedia, tell your currently played songs on spotify, open a video on youtube, make jokes to make you happy, tell you today's date.
 
+## Setup 
+### Project Clone
+```
+git clone https://github.com/ozgecinko/VirtualAssistant.git
+```
+
 ### Library Installations
 ```
 pip install speechRecognition
@@ -51,12 +57,12 @@ pip install pyjokes
 
 ![whattime](https://user-images.githubusercontent.com/58422765/112618977-cc7cab80-8e37-11eb-9e65-ca931891e3d8.PNG)
 
-* You can ask anything with beginning **"Who is?"** or **"What is?"**, it will say first information on wikipedia. 
+* You can ask anything with beginning **"Who is?"** or **"What is?"**, Zinku will talk about first information on wikipedia. 
 
 ![whatis](https://user-images.githubusercontent.com/58422765/112618975-cc7cab80-8e37-11eb-8a54-ff3029895cf6.PNG)
 ![whois](https://user-images.githubusercontent.com/58422765/112618978-cd154200-8e37-11eb-8a65-040efa9317a1.PNG)
 
-* You can open a video on youtube with saying **"Open"** to Zinku.
+* You can open a video on youtube, just say **"Open"** to Zinku.
 
 ![openingvideo](https://user-images.githubusercontent.com/58422765/112618971-cbe41500-8e37-11eb-8011-64655880e809.PNG)
 
@@ -66,7 +72,7 @@ pip install pyjokes
 
 
 
-### Resources and Inspirations
+### References and Inspirations
 * [Romantic Alexa Project from Programming Hero](https://youtu.be/AWvsXxDtEkU)
 * [Spotify Voice Control from Jake Goodman](https://youtu.be/tsFVzYVVr4c)
 * [Spotipy for Python](https://www.section.io/engineering-education/spotify-python-part-1/)
