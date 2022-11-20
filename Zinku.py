@@ -28,14 +28,16 @@ def currently_played():
 
 
 def take_command():
-    try:
-        with sr.Microphone() as source:
-            print("Zinku is listening...")
-            voice = listener.listen(source)
-            command = listener.recognize_google(voice)
-            command = command.lower()
-    except:
-        print('InvalidSearchError. Try Again.')
+    with sr.Microphone() as source:
+        print("Zinku is listening...")
+        audio = listener.listen(source)
+        command = ""
+
+        try:
+            command = listener.recognize_google(audio)
+            print(command)
+        except Exception as e:
+            print("Exception: " + str(e))
 
     return command
 
