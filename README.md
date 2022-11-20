@@ -1,4 +1,5 @@
-# Virtual Assistant Zinku
+# Virtual Assistant
+## Zinku
 ![Zinku](https://user-images.githubusercontent.com/58422765/112621754-2b8fef80-8e3b-11eb-8fb8-7a2cb1af5801.jpg)
 
 *Thanks for the amazing picture of Zinku to artist Şerife Gönüllü.*
@@ -13,37 +14,25 @@ Zinku can understand your voice and commands, talk with you, search something on
 git clone https://github.com/ozgecinko/VirtualAssistant.git
 ```
 
-### Library Installations
+### Installation
 ```
-pip install speechRecognition
-```
-
-```
-pip install PyAudio
+python -m venv .env
 ```
 
 ```
-pip install pyttsx3
+source .env/bin/activate
 ```
 
 ```
-pip install pywhatkit
+pip install -r requirements.txt
 ```
 
 ```
-pip install wikipedia
-```
-
-```
-pip install spotipy
-```
-
-```
-pip install pyjokes
+python zinku.py
 ```
 
 
-### Screenshots
+## Screenshots
 
 * Say hello to Zinku!
 
@@ -72,7 +61,7 @@ pip install pyjokes
 
 
 
-### References and Inspirations
+## References
 * [Romantic Alexa Project from Programming Hero](https://youtu.be/AWvsXxDtEkU)
 * [Spotify Voice Control from Jake Goodman](https://youtu.be/tsFVzYVVr4c)
 * [Spotipy for Python](https://www.section.io/engineering-education/spotify-python-part-1/)
